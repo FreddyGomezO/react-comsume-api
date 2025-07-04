@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-comsume-api/static/css/main.6351e1cc.css",
-    "main.js": "/react-comsume-api/static/js/main.6ac0773d.js",
+    "main.js": "/react-comsume-api/static/js/main.a794b4de.js",
     "static/media/primeicons.svg": "/react-comsume-api/static/media/primeicons.8ba12f803b137699ee74.svg",
     "static/media/open-sans-v15-latin-regular.svg": "/react-comsume-api/static/media/open-sans-v15-latin-regular.1d0d8b66fa1da76d69b9.svg",
     "static/media/open-sans-v15-latin-700.svg": "/react-comsume-api/static/media/open-sans-v15-latin-700.926388f043fc8117b35b.svg",
@@ -25,10 +25,10 @@
     "static/media/color.png": "/react-comsume-api/static/media/color.6441e63a57ccc5105bad.png",
     "index.html": "/react-comsume-api/index.html",
     "main.6351e1cc.css.map": "/react-comsume-api/static/css/main.6351e1cc.css.map",
-    "main.6ac0773d.js.map": "/react-comsume-api/static/js/main.6ac0773d.js.map"
+    "main.a794b4de.js.map": "/react-comsume-api/static/js/main.a794b4de.js.map"
   },
   "entrypoints": [
     "static/css/main.6351e1cc.css",
-    "static/js/main.6ac0773d.js"
+    "static/js/main.a794b4de.js"
   ]
 }
