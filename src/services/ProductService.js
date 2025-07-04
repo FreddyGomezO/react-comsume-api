@@ -2,11 +2,10 @@ import axios from "axios";
 
 export class ProductService {
 
-    
-    baseUrl = "https://freddy-production-api-5977f618ffa6.herokuapp.com/api/products/";
+    baseUrl = "https://freddy-production-api-5977f618ffa6.herokuapp.com/api/products";
 
     create(product){
-        return axios.post(this.baseUrl+"product/", product).then(res => res.data);
+        return axios.post(this.baseUrl + "/product", product).then(res => res.data);
     }
 
     readAll(){
@@ -14,10 +13,10 @@ export class ProductService {
     }
 
     update(product){
-        return axios.put(this.baseUrl+"product/"+product._id, product).then(res => res.data);
+        return axios.put(this.baseUrl + "/product/" + product._id, product).then(res => res.data);
     }
 
     delete(id){
-        return axios.delete(this.baseUrl+"product/"+id).then(res => res.data);
+        return axios.delete(this.baseUrl + "/product/" + id).then(res => res.data);
     }
 }
