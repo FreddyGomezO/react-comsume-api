@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 export class ProductService {
     baseUrl = "https://freddy-production-api-5977f618ffa6.herokuapp.com/api/products";
 
